@@ -51,3 +51,53 @@ table {
 
 
 /* Write your css below here */
+*{
+	margin: 0;
+	padding: 0;
+}
+.pic{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+	gap: 10px;
+	padding-left: 40px;
+	height: 200px;
+	width: 200px;
+}
+h6{
+	font-size: 40px;
+	padding-left: 30px;
+}
+h1{
+	font-size: 20px;
+	padding-left: 30px;
+}
+h2{
+	color: blue;
+}
+h3{
+	color: blue;
+}
+h4{
+	color: blue;
+}
+h5{
+	color: blue;
+}
+.container{
+	display: grid;
+	place-items: center;
+}
+.images{
+	display: grid;
+	place-items: center;
+}
+.text{
+	padding-left: 30px;
+}
+@media screen and (>=500){
+	
+	display: grid;
+
+	
+}
